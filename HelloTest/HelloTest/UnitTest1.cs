@@ -45,6 +45,19 @@ namespace HelloTest
             mcalculator.Bagi(1, 0);
         }
 
+        [TestMethod]
+        public void TestDecimal2()
+        {
+            Assert.AreEqual(2.7f, mcalculator.Jumlah(1.2f, 1.5f));
+            Assert.AreEqual(3, mcalculator.Jumlah(2, 1));
+        }
+
+        [TestMethod]
+        public void TestDecimal3()
+        {
+            Assert.AreEqual(2.7f, mcalculator.Jumlah(1.2f, 1.5f));
+            Assert.AreEqual(3, mcalculator.Jumlah(2, 1));
+        }
 
     }
 }
